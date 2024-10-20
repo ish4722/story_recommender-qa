@@ -15,7 +15,7 @@ A simple Streamlit app that answers questions about an uploaded document via Ope
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   $ streamlit run demo.py
    ```
 
 
@@ -53,3 +53,6 @@ By combining the visual and emotional analysis with instant recommendations, our
 
 ## Challenges and Limitations
 While our solution is highly innovative, we face significant challenges due to resource constraints and computational limitations. Our project relies on large-scale AI models like *LLama 11B* and *LLama 8B, with billions of parameters, which require extensive memory and processing power. However, platforms like **Google Colab, **Kaggle, and **Jupyter Notebooks* offer limited GPU and memory resources, leading to frequent *computational errors* and *long processing times*. These limitations force us to work with smaller datasets and optimize our code, sacrificing speed and scalability. With better infrastructure, our solution could achieve far greater potential.
+
+All major code is included in demo file.It is receiving image description from description_page.py and receiving music discription from music.py.After that demo file provides a song recommendation.
+User can also see the image explaination on description.py by entering a gemini api key.(we missed to add it on env file).
